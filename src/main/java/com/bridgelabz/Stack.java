@@ -18,5 +18,10 @@ package com.bridgelabz;
         public INode peak() {
             return linkedList.head;
         }
+
+        public INode pop() {
+            return linkedList.pop();
+        }
+
     }
 

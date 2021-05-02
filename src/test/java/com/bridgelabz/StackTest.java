@@ -17,5 +17,18 @@ public class StackTest {
         INode peak = stack.peak();
         Assertions.assertEquals(thirdNode, peak);
     }
+    @Test
+    public void given3Nums_IntoStack_WhenPopped_ShouldHaveLastAddedOut(){
+        Node<Integer> firstNode = new Node<>(70);
+        Node<Integer> secondNode = new Node<>(30);
+        Node<Integer> thirdNode = new Node<>(56);
+        Stack stack = new Stack();
+        stack.push(firstNode);
+        stack.push(secondNode);
+        stack.push(thirdNode);
+        INode pop = stack.pop();
+        stack.printStack();
+        Assertions.assertEquals(thirdNode, pop);
+    }
 
 }

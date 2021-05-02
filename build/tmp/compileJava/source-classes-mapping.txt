@@ -1,2 +1,8 @@
+com/bridgelabz/INode.java
+ com.bridgelabz.INode
+com/bridgelabz/LinkedList.java
+ com.bridgelabz.LinkedList
+com/bridgelabz/Node.java
+ com.bridgelabz.Node
 com/bridgelabz/Stack.java
  com.bridgelabz.Stack

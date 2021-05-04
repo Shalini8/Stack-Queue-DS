@@ -23,5 +23,13 @@ package com.bridgelabz;
             return linkedList.pop();
         }
 
+        public void enqueue (INode node){
+            linkedList.append(node);
+        }
+
+        public INode lastestElementOfStack() {
+            return LinkedList.head;
+        }
+
     }
 

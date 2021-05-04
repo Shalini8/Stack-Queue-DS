@@ -1,7 +1,7 @@
 package com.bridgelabz;
 
 public class LinkedList<K> {
-    public INode head;
+    public static INode head;
     public INode tail;
 
     public LinkedList() {
@@ -21,7 +21,7 @@ public class LinkedList<K> {
             this.head.setNext(tempNode);
         }
     }
-    public void append(INode newNode){
+    public  void append(INode newNode){
         if(this.head == null) {
             this.head = newNode;
         }if(this.tail == null) {

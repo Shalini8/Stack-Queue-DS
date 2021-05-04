@@ -30,6 +30,12 @@ package com.bridgelabz;
         public INode lastestElementOfStack() {
             return LinkedList.head;
         }
+        public void dequeue() {
+            linkedList.popLast();
+        }
+        public INode firstElementOfQueue() {
+            return linkedList.tail;
+        }
 
     }
 
